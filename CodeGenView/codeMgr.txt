@@ -1,0 +1,23 @@
+--[[
+@Description: 模块Mgr
+@Author: 工具人
+@Date: Created in {1}
+--]]
+local {0}Manager={{}}
+local EventManager = require('Event.EventManager')
+local GameEvent = require('Event.GameEvent')
+
+function {0}Manager:Init()
+    EventManager.Register(GameEvent.RESET_ALL_DATA, function()
+        self:Reset()
+    end)
+end
+
+----save sc-**Res-start---缓存起来--
+
+----save sc-**Res-end---缓存起来--
+ 
+function {0}Manager:Reset()
+end
+
+return {0}Manager

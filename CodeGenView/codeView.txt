@@ -1,0 +1,42 @@
+--[[
+@Description: 页面
+@Author: 工具人
+@Date: Created in {2}
+--]]
+local UIView = require('UI.UIView')
+local Proxy{0}Module=require('{0}.Proxy{0}Module') 
+local {0}Manager=require('{0}.{0}Manager')
+local Protocal{0}=require('{0}.Protocal{0}') 
+local LangMgr = require('Language.LanguageManager')
+local TipManager = require('Tip.TipManager')
+local {1} = fgui.window_class(UIView)
+
+function {1}:OnLoadFinished()
+  --self.uiComs = require('UI.Packages.{0}.UI_{1}'):OnConstruct(self.contentPane)--UIView.lua已有定义
+end
+--[[
+local EventManager = require('Event.EventManager')  local GameEvent = require('Event.GameEvent')
+function {1}:BindGlobalEvent()    return{{ {{GameEvent.{1},function()end,999}}, }} end
+--]]
+function {1}:SetData(pDto)
+end
+function {1}:RefreshViewAll()
+end
+function {1}:OnShown()
+   UIView.OnShown(self) 
+end
+function {1}:OnHide()
+  UIView.OnHide(self)  
+end
+return {1}
+
+--{1} = {{
+--        [CLASS_NAME] = '{0}.{1}',
+--        [PAKAGE_NAME] = '{0}',
+--        [PANEL_NAME] = '{1}',
+--        [PARET_LAYER] = UI_LAYER_MAIN_2,
+--        [CONTEXT_MODEL] = true,
+--        [SORTING_ORDER] = 2,
+--        [LOCK_CAMERA] = true,
+--        [IGNORE_CAMRECORD] = true,
+--    }},

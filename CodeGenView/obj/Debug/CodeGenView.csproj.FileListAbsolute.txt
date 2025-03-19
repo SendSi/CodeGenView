@@ -1,0 +1,10 @@
+D:\VSProject\CodeGenView\CodeGenView\bin\Debug\CodeGenView.exe.config
+D:\VSProject\CodeGenView\CodeGenView\bin\Debug\CodeGenView.exe
+D:\VSProject\CodeGenView\CodeGenView\bin\Debug\CodeGenView.pdb
+D:\VSProject\CodeGenView\CodeGenView\obj\Debug\CodeGenView.csproj.AssemblyReference.cache
+D:\VSProject\CodeGenView\CodeGenView\obj\Debug\CodeGenView.Properties.Resources.resources
+D:\VSProject\CodeGenView\CodeGenView\obj\Debug\CodeGenView.csproj.GenerateResource.cache
+D:\VSProject\CodeGenView\CodeGenView\obj\Debug\CodeGenView.csproj.CoreCompileInputs.cache
+D:\VSProject\CodeGenView\CodeGenView\obj\Debug\CodeGenView.exe
+D:\VSProject\CodeGenView\CodeGenView\obj\Debug\CodeGenView.pdb
+D:\VSProject\CodeGenView\CodeGenView\obj\Debug\CodeGenView.Form1.resources
